@@ -1,0 +1,1 @@
+spec_classes = ['dog', 'cat', 'horse', 'bird', 'fish', 'lion', 'panda', 'rabbit', 'butterfly', 'dolphin']
