@@ -252,7 +252,7 @@ class VisualFeatureExpectationModule(nn.Module):
     def forward(self, x):
         if x.dim() == 4: 
             B, C, H, W = x.shape
-            x = x.view(B, C, -1).permute(0, 2, 1) # 变成 [B, Seq_Len, C]
+            x = x.view(B, C, -1).permute(0, 2, 1) 
         elif x.dim() == 2:
             x = x.unsqueeze(1) 
 
